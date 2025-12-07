@@ -1,58 +1,37 @@
 body {
     width: 940px;
     margin: 0 auto;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
 }
 
 h1 {
-    background: #e5eef3;
+    background: #e3eef3;
     padding: 10px;
 }
 
-a {
-    color: #1a0dab;
+figure {
+    background: #f2f2f2;
+    padding: 15px;
+}
+
+figure img {
+    width: 100%;
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #555;
 }
 
 figure.matriz {
     width: 550px;
     margin: 20px auto;
-    background: #f2f2f2;
-    padding: 15px;
-}
-
-figure.matriz img {
-    width: 100%;
 }
 
 figure.familia {
     width: 275px;
     float: right;
     margin: 0 0 15px 15px;
-    background: #f2f2f2;
-    padding: 15px;
-}
-
-figure.familia img {
-    width: 100%;
-}
-
-figcaption {
-    text-align: center;
-    font-size: 12px;
-    color: #444;
-    margin-top: 10px;
-}
-
-h2 {
-    border-top: 1px solid black;
-    padding-top: 10px;
-    font-size: 22px;
-}
-
-.clearfix {
-    clear: both;
-}
-
-ul {
-    margin-left: 20px;
 }
