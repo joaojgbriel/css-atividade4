@@ -1,0 +1,55 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    width: 940px;
+    margin: 0 auto;
+}
+
+p {
+    margin: 10px 0;
+}
+
+.logo {
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+h1 {
+    color: #3D3D3D;
+    background-color: #E1EDF2;
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 1px solid #3D3D3D;
+    padding-bottom: 5px;
+}
+
+/* FIGURA DA MATRIZ — 550px CENTRALIZADA */
+figure.matriz {
+    width: 550px;
+    margin: 30px auto;
+    background-color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+/* FIGURA DA FAMÍLIA — 275px ALINHADA À DIREITA */
+figure.familia {
+    width: 275px;
+    float: right;
+    margin: 0 0 15px 15px;
+    background-color: whitesmoke;
+    padding: 15px;
+    text-align: center;
+}
+
+/* IMAGENS DEVEM OCUPAR TODA A FIGURE */
+figure img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    color: lightgrey;
+    margin-top: 10px;
+}
